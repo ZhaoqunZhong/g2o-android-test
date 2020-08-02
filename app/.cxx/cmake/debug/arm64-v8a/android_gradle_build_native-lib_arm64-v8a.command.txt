@@ -1,0 +1,7 @@
+Executable : /home/zhaoqun/Android/Sdk/cmake/3.10.2.4988404/bin/ninja
+arguments : 
+-C
+/home/zhaoqun/AndroidStudioProjects/g2o android test/app/.cxx/cmake/debug/arm64-v8a
+native-lib
+jvmArgs : 
+

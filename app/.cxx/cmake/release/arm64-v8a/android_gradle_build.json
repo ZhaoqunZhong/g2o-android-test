@@ -1,0 +1,49 @@
+{
+  "stringTable": {
+    "0": "/home/zhaoqun/AndroidStudioProjects/g2o android test/app/.cxx/cmake/release/arm64-v8a",
+    "1": "--target=aarch64-none-linux-android27 --gcc-toolchain=/home/zhaoqun/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/zhaoqun/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dnative_lib_EXPORTS -I/home/zhaoqun/AndroidStudioProjects/g2o android test/app/src/main/cpp/eigen-3.3.7 -I/home/zhaoqun/AndroidStudioProjects/g2o android test/app/src/main/cpp -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -O2 -DNDEBUG -fPIC"
+  },
+  "buildFiles": [
+    "/home/zhaoqun/Android/Sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake",
+    "/home/zhaoqun/Android/Sdk/ndk/21.1.6352462/build/cmake/platforms.cmake",
+    "/home/zhaoqun/AndroidStudioProjects/g2o android test/app/src/main/cpp/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/home/zhaoqun/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/zhaoqun/AndroidStudioProjects/g2o android test/app/.cxx/cmake/release/arm64-v8a\" clean"
+  ],
+  "buildTargetsCommand": "/home/zhaoqun/Android/Sdk/cmake/3.10.2.4988404/bin/ninja  -C \"/home/zhaoqun/AndroidStudioProjects/g2o android test/app/.cxx/cmake/release/arm64-v8a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "native-lib-Release-arm64-v8a": {
+      "buildCommand": "/home/zhaoqun/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/zhaoqun/AndroidStudioProjects/g2o android test/app/.cxx/cmake/release/arm64-v8a\" native-lib",
+      "buildType": "release",
+      "toolchain": "2858777881",
+      "abi": "arm64-v8a",
+      "artifactName": "native-lib",
+      "files": [
+        {
+          "src": "/home/zhaoqun/AndroidStudioProjects/g2o android test/app/src/main/cpp/native-lib.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "/home/zhaoqun/AndroidStudioProjects/g2o android test/app/build/intermediates/cmake/release/obj/arm64-v8a/libnative-lib.so",
+      "runtimeFiles": [
+        "/home/zhaoqun/AndroidStudioProjects/g2o android test/app/src/main/cpp/jniLibs/arm64-v8a/g2o/libg2o_core.so",
+        "/home/zhaoqun/AndroidStudioProjects/g2o android test/app/src/main/cpp/jniLibs/arm64-v8a/g2o/libg2o_solver_dense.so",
+        "/home/zhaoqun/AndroidStudioProjects/g2o android test/app/src/main/cpp/jniLibs/arm64-v8a/g2o/libg2o_types_sba.so",
+        "/home/zhaoqun/AndroidStudioProjects/g2o android test/app/src/main/cpp/jniLibs/arm64-v8a/g2o/libg2o_stuff.so",
+        "/home/zhaoqun/AndroidStudioProjects/g2o android test/app/src/main/cpp/jniLibs/arm64-v8a/g2o/libg2o_types_slam3d.so"
+      ]
+    }
+  },
+  "toolchains": {
+    "2858777881": {
+      "cppCompilerExecutable": "/home/zhaoqun/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

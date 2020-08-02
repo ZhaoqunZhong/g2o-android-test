@@ -1,0 +1,26 @@
+{
+  "buildFiles": [
+    "/home/zhaoqun/Android/Sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake",
+    "/home/zhaoqun/Android/Sdk/ndk/21.1.6352462/build/cmake/platforms.cmake",
+    "/home/zhaoqun/AndroidStudioProjects/g2o android test/app/src/main/cpp/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/home/zhaoqun/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/zhaoqun/AndroidStudioProjects/g2o android test/app/.cxx/cmake/debug/arm64-v8a\" clean"
+  ],
+  "buildTargetsCommand": "/home/zhaoqun/Android/Sdk/cmake/3.10.2.4988404/bin/ninja  -C \"/home/zhaoqun/AndroidStudioProjects/g2o android test/app/.cxx/cmake/debug/arm64-v8a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "native-lib-Debug-arm64-v8a": {
+      "artifactName": "native-lib",
+      "buildCommand": "/home/zhaoqun/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/zhaoqun/AndroidStudioProjects/g2o android test/app/.cxx/cmake/debug/arm64-v8a\" native-lib",
+      "abi": "arm64-v8a",
+      "output": "/home/zhaoqun/AndroidStudioProjects/g2o android test/app/build/intermediates/cmake/debug/obj/arm64-v8a/libnative-lib.so",
+      "runtimeFiles": [
+        "/home/zhaoqun/AndroidStudioProjects/g2o android test/app/src/main/cpp/jniLibs/arm64-v8a/g2o/libg2o_core.so",
+        "/home/zhaoqun/AndroidStudioProjects/g2o android test/app/src/main/cpp/jniLibs/arm64-v8a/g2o/libg2o_solver_dense.so",
+        "/home/zhaoqun/AndroidStudioProjects/g2o android test/app/src/main/cpp/jniLibs/arm64-v8a/g2o/libg2o_types_sba.so",
+        "/home/zhaoqun/AndroidStudioProjects/g2o android test/app/src/main/cpp/jniLibs/arm64-v8a/g2o/libg2o_stuff.so",
+        "/home/zhaoqun/AndroidStudioProjects/g2o android test/app/src/main/cpp/jniLibs/arm64-v8a/g2o/libg2o_types_slam3d.so"
+      ]
+    }
+  }
+}
