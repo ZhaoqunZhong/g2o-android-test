@@ -4,6 +4,10 @@
 
 Ubuntu18
 
+## Get g2o source code 
+
+https://github.com/RainerKuemmerle/g2o
+
 ## Build g2o for Android 10 
 
 	cd build
